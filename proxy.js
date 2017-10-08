@@ -11,8 +11,7 @@ var rl = readline.createInterface({
 
 //Get configurations from "config.json"
 var config = JSON.parse(fs.readFileSync("config.json"));
-console.log(fs.readFileSync("cache.json").toString().length?fs.readFileSync("cache.json"):"{}".toString().length);
-var cache = JSON.parse(fs.readFileSync("cache.json").toString().length?fs.readFileSync("cache.json"):"{}".toString().length?fs.readFileSync("cache.json").toString().length?fs.readFileSync("cache.json"):"{}":"{}");
+var cache = JSON.parse(fs.readFileSync("cache.json").toString().length?fs.readFileSync("cache.json"):"{}");
 var host = config.host,
     port = config.port,
     blacklist = config.blacklist,
