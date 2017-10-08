@@ -1,0 +1,20 @@
+{
+  "name": "rediweb",
+  "version": "0.0.1",
+  "author": "Israel Martins",
+  "description": "rediweb",
+  "engines": {
+    "node": "latest",
+    "npm": "latest"
+  },
+  "dependencies": {
+    "fs": "latest",
+	"url": "latest",
+	"net": "latest",
+	"readline": "latest"
+    
+  },
+  "scripts": {
+    "start": "node proxy.js"
+  }
+}
