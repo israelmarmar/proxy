@@ -11,20 +11,10 @@
     "casperjs": "^1.1.4",
     "express": "^4.16.2",
     "fs": "0.0.1-security",
-    "node-horseman": "3.2.0",
-    "phantom": "^4.0.5",
-    "phantom-proxy": "^0.1.792",
+    "node-phantom": "^0.2.5",
     "phantomjs": "^2.1.7",
     "phantomjs-prebuilt": "^2.1.16"
   },
-  "keywords": [
-    "phantomjs",
-    "phantom",
-    "cucumber",
-    "cucumberjs",
-    "feature",
-    "testing"
-  ],
   "scripts": {
     "start": "node server.js"
   },
